@@ -12,7 +12,6 @@ import { AppComponent } from './app.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
 })
 export class AppModule implements DoBootstrap {
   constructor(private injector: Injector) { }
